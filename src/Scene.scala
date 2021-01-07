@@ -1,6 +1,8 @@
 
-class Scene(aggregate:List[Primitive], lights:List[Light]) {
+class Scene(aggregate:Primitive, lights:List[Light]) {
 
+  private val worldBound = aggregate.worldBound()
 
+  lights.foreach(_.preprocess(this))
 
 }
