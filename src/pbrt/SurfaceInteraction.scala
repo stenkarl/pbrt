@@ -1,0 +1,6 @@
+package pbrt
+
+
+class SurfaceInteraction {
+
+}

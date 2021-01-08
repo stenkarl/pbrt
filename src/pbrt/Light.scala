@@ -1,3 +1,5 @@
+package pbrt
+
 
 class Light {
 

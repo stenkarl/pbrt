@@ -1,3 +1,4 @@
+package pbrt
 
 object Main {
 
