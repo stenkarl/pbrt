@@ -1,5 +1,5 @@
 package pbrt.integrator
 
-class Camera {
+class Camera (val film: Film) {
 
 }
