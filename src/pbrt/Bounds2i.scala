@@ -1,6 +1,6 @@
 package pbrt
 
-class Bounds2i {
+case class Bounds2i(val pMin:Point2i, val pMax:Point2i) {
 
   def diagonal():Vector2i = ???
 
